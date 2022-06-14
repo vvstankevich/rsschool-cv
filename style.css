@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Angkor-Regular';
+    src: url(./assets/fonts/Angkor-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+header {
+    font-family: "Angkor-Regular";
+    background-color: #D3D3D3;
+}
+
+main {
+    font-family: "Roboto";
+}
+
+footer {
+    background-color: #808080;
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
